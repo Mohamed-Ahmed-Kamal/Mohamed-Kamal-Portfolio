@@ -201,27 +201,26 @@ body,
 
 /* Toggle Component */
 .toggle {
-    display: flex; /* ✅ */
-    gap: 1rem; /* ✅ */
-    margin-right: auto; /* ✅ */
-    align-items: center;
-  }
-  .toggle a{
-    background-color: var(--color-link-bg);
-    color: var(--color-white);
-    padding: 6px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .toggle a img{
-    width: 33px;
-
-  }
+  display: flex; /* ✅ */
+  gap: 1rem; /* ✅ */
+  margin-right: auto; /* ✅ */
+  align-items: center;
+}
+.toggle a {
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 6px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.toggle a img {
+  width: 33px;
+}
 
 .toggle__title {
   font-weight: var(--font-weight-medium); /* ✅ */
@@ -248,6 +247,7 @@ body,
   display: block; /* ✅ */
   background-color: var(--color-white); /* ✅ */
   transition: 0.3s; /* ✅ */
+  transform: translateX(-145%);
 }
 
 .toggle__checkbox {
@@ -259,7 +259,7 @@ body,
 }
 
 .toggle__checkbox:checked + .toggle__label::after {
-  transform: translateX(2.1rem); /* ✅ */
+  transform: translateX(.1rem); /* ✅ */
   background: var(--color-green); /* ✅ */
 }
 
