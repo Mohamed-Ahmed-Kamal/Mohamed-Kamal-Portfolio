@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/ar-style.css" />
+    <title>محمد كمال</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link navigation__bio" href="#bio">البايو</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__skills" href="#skills"
+                >المهارات</a
+              >
+            </li>
+
+            <li>
+              <a class="navigation__link navigation__projects" href="#projects"
+                >المشاريع</a
+              >
+            </li>
+
+            <li>
+              <a class="navigation__link navigation__contact" href="#contact"
+                >التواصل</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <a href="index.html">
+            <img src="images/en-lang.jpg" alt="">
+            English </a>
+          <h3 class="toggle__title">تغير الوضع</h3>
+          <input id="toggle" class="toggle__checkbox" type="checkbox" />
+          <label
+            class="toggle__label"
+            for="toggle"
+            role="button"
+            tabindex="0"
+          ></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">اهلا انا محمد كمال مطور واجهه اماميه</h1>
+          <p class="bio__objective">
+            اسمي <span class="bio__name">محمد كمال</span>, مطور واجهه اماميه
+            هذة حساباتي علي مواقع التواصل الاجتماعي
+            <a
+              target="_blank"
+              class="bio__facebook"
+              href="https://www.facebook.com/profile.php?id=100006031399403"
+              >فيسبوك</a
+            >,
+            <a
+              target="_blank"
+              class="bio__twitter"
+              href="https://twitter.com/Mohamed83173083"
+              >تويتر</a
+            >,
+            <a
+              target="_blank"
+              class="bio__linkedin"
+              href="https://www.linkedin.com/in/mohamed-ahmed-kamal/"
+              >لينكادان</a
+            >
+            و
+            <a
+              target="_blank"
+              class="bio__youtube"
+              href="https://github.com/Mohamed-Ahmed-Kamal"
+              >جيت هوب</a
+            >.
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">تواصل</a>
+          <a
+            class="bio__links find-out-link"
+            href="file/Resume-Mohamed-Kamal (4).pdf"
+          >
+            حمل السيره الذاتيه <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/Picsart_24-01-04_18-00-05-906.png"
+            alt="personal pic of Mohamed Abusrea"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section skills section--with-bg">
+        <h2 class="h2-heading">المهارات</h2>
+        <div class="skills__filters">
+          <button
+            class="skills__button skills__button--isActive"
+            data-type="all"
+          >
+            الكل
+          </button>
+          <button class="skills__button" data-type="frontend">
+            واجهه اماميه
+          </button>
+          <button class="skills__button" data-type="backend">
+            واجهه خلفيه
+          </button>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="h2-heading">
+          مشاريعي <br />
+          المميزه
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 1.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              حساب <br />
+              العمر
+            </h3>
+            <p class="projects__description">
+              باستخدام JavaScript وHTML وCSS، تعد أداة حساب العمر بمثابة أ مشروع
+              سهل الاستخدام يسمح للمستخدمين بإدخال تاريخ ميلادهم و احسب أعمارهم.
+              تم تحقيق التصميم النظيف وسريع الاستجابة من خلال CSS، يكمل وظيفة
+              حساب العمر ميزة تعرض المهارة في كل من البرمجة النصية للواجهة
+              الأمامية و
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Age-Calculator"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Age-Calculator"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              تطبيق <br />
+              الاله الحاسبه
+            </h3>
+            <p class="projects__description">
+              إظهار الكفاءة في JavaScript وHTML وCSS تطبيق الآلة الحاسبة هو
+              مشروع أنيق يمكّن المستخدمين من أداء العمليات الأساسية عمليات
+              حسابية. تم تصميم الواجهة باستخدام HTML و مصمم باستخدام CSS، ويعرض
+              التطبيق العملي للواجهة الأمامية مهارات التنمية.
+            </p>
+            <a
+              class="projects__link"
+              href="https://calculator-js-nu-three.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Calculator-JS"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 2.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 3.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              لعبه<br />
+              X - O
+            </h3>
+            <p class="projects__description">
+              في هذا المشروع الجذاب، يتم تنفيذ لعبة Tic-Tac-Toe باستخدام
+              JavaScript للتفاعل وHTML/CSS لشكل جذاب بصريًا تَخطِيط. يوضح مشروع
+              اللعبة مهارات الإبداع تطبيقات الويب التفاعلية، التي تجمع بين
+              الوظائف و واجهة مستخدم جذابة وسريعة الاستجابة.
+            </p>
+            <a
+              class="projects__link"
+              href="https://tic-tac-green.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Tic-Tac"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">LaslesVPN</h3>
+            <p class="projects__description">
+              في سياق إتقان CSS، HTML، وSass على المدرسة، I تولى إنشاء موقع ويب
+              للمحفظة سريعة الاستجابة، أ مشروع مصمم لعرض كفاءتي في تطوير الويب و
+              تصميم. هذه المحفظة ليست فقط بمثابة تمثيل لي المهارات ولكنها تعكس
+              أيضًا التزامي بإنشاء بيئة سهلة الاستخدام وحضور رقمي جذاب بصريًا.
+            </p>
+            <a
+              class="projects__link"
+              href="https://lasles-vpn-azure.vercel.app/"
+              target="_blank"
+            >
+              عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/LaslesVPN"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 4.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 5.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              عمليات <br />
+              CRUDS
+            </h3>
+            <p class="projects__description">
+              يعد مشروع عمليات CRUD بمثابة عرض شامل لـ إتقان JavaScript وHTML
+              وCSS، مع التركيز على إنشاء قراءة وتحديث وحذف البيانات بسلاسة. هذه
+              الشبكة الديناميكية يتيح التطبيق للمستخدمين التفاعل مع قاعدة
+              البيانات، مما يوضح مهارات البرمجة النصية القوية في JavaScript.
+              هيكل HTML يضمن واجهة مستخدم جيدة التنظيم ويمكن الوصول إليها، في
+              حين أن CSS يعزز التصميم المظهر البصري واستجابة السيارة مشروع. هذا
+              العرض العملي يعكس شمولية فهم تطوير الويب، بما في ذلك كلتا
+              الوظيفتين وتجربة المستخدم.
+            </p>
+            <a
+              class="projects__link"
+              href="https://curds-smoky.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/CURDS"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              قران <br />
+              صفحه
+            </h3>
+            <p class="projects__description">
+              يجسد مشروع الصفحة المقصودة بأسلوب Sass الإتقان في Sass، CSS وHTML،
+              يعرضان تصميمًا مذهلاً وسريع الاستجابة الصفحة المقصودة. الاستفادة
+              من قوة Sass للتصميم الفعال، يؤكد المشروع على التعليمات البرمجية
+              المعيارية والقابلة للصيانة. HTML تم تنظيم الهيكل بعناية، والنتيجة
+              آسرة الصفحة المقصودة التي لا تعكس اهتمامًا شديدًا بالتصميم فحسب،
+              بل تعكس أيضًا يسلط الضوء على الخبرة في تطوير الواجهة الأمامية، مما
+              يوضح أ التكامل السلس بين الأسلوب والمضمون.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/qurantab-landing-page"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/qurantab-landing-page"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 6.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 7.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              صفحه <br />
+              هبوط
+            </h3>
+            <p class="projects__description">
+              في هذا المشروع، أضع مهاراتي في تطوير الويب الأمامي العمل على إنشاء
+              صفحة مقصودة جذابة وسهلة الاستخدام. مع التركيز على التصميم النظيف
+              والتنقل السلس، كنت أهدف إلى ذلك يجذب الزوار منذ لحظة وصولهم إلى
+              الصفحة. خلال باستخدام HTML، تأكدت من أن بنية الصفحة كانت محددة
+              جيدًا، مما يسمح بسهولة التنظيم وسهولة الوصول. لعبت CSS دورًا
+              حاسمًا في تعزيز الجاذبية البصرية وظائف الصفحة المقصودة، من أنماط
+              الخطوط والتباعد لإنشاء رسومات ورسوم متحركة لافتة للنظر. خلال ال
+              عملية التطوير، اتبعت أفضل ممارسات الصناعة، مما يضمن أن الصفحة
+              المقصودة كانت سريعة الاستجابة ومتوافقة تمامًا عبرها الأجهزة
+              والمتصفحات المختلفة. لقد اهتمت أيضًا بالتحسين سرعة تحميل الصفحة،
+              مما يضمن مستخدمًا سلسًا وسلسًا خبرة.
+            </p>
+            <a
+              class="projects__link"
+              href="https://template-three-virid.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Template-three"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              صفحه <br />
+              هبوط
+            </h3>
+            <p class="projects__description">
+              صفحة مقصودة قمت بإنشائها لشرح دورة أسامة زيرو. باستخدام HTML وCSS،
+              قمت بتصميم تخطيط أنيق وسريع الاستجابة. المحدد للصفحة المقصودة
+              عبارة عن رسم بياني شريطي ديناميكي يوضح حالة إكمال الدورة. من خلال
+              العناصر التفاعلية والزوار يمكنهم بسهولة تتبع تقدمهم. مع اللون
+              المختار بعناية المخططات والطباعة، تضمن الصفحة المقصودة تجربة جذابة
+              وجذابة تجربة جذابة بصريا.
+            </p>
+            <a
+              class="projects__link"
+              href="https://template-two-main.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Template-TWO-main"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 8.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 9.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              M.K <br />
+              Store
+            </h3>
+            <p class="projects__description">
+              تفضل بزيارة متجري عبر الإنترنت، وهو عرض يسلط الضوء على براعتي فيه
+              HTML، وجافا سكريبت، وCSS. إنه أكثر من مجرد سوق، إنه تضيف
+              JavaScript لوحة قماشية رقمية حيث يشكل HTML البنية التفاعل
+              الديناميكي، وCSS يجلب السحر الجمالي. بسلاسة التنقل عبر واجهة سهلة
+              الاستخدام، وتجربة التآزر بين هذه التقنيات. هذه المنصة هي شهادة لي
+              مهارات البرمجة، مزيج من الوظائف والتصميم الذي يتحدث مجلدات في
+              أناقة أضيق الحدود. انغمس في رحلة موجزة التميز في تطوير الويب!
+            </p>
+            <a
+              class="projects__link"
+              href="https://m-k-shop.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/M.K-Shop"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Smak</h3>
+            <p class="projects__description">
+              ادخل إلى عالمي الماهر من خلال الصفحة المقصودة، شاهد التآزر بين
+              بنية HTML، وتفاعلية JavaScript، وCSS البراعة البصرية. هذه الصفحة
+              عبارة عن لوحة قماشية ديناميكية، لا تعكس فقط نقطة هبوط ولكنها عرض
+              لخبرتي التي شكلتها شركة Elzero تعاليم. إنها دعوة لتجربة اندماج
+              الكود و الإبداع في مساحة رقمية موجزة وآسرة. مرحبا بك في جوهر إتقان
+              HTML وJavaScript وCSS.
+            </p>
+            <a
+              class="projects__link"
+              href="https://smak.vercel.app/"
+              target="_blank"
+              >هرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Smak"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-rigth silde-in"
+            src="./images/project 10.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 11.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Namari</h3>
+            <p class="projects__description">
+              ادخل إلى عالمي الماهر من خلال الصفحة المقصودة، شاهد التآزر بين
+              بنية HTML، وتفاعلية JavaScript، وCSS البراعة البصرية. هذه الصفحة
+              عبارة عن لوحة قماشية ديناميكية، لا تعكس فقط نقطة هبوط ولكنها عرض
+              لخبرتي التي شكلتها شركة Elzero تعاليم. إنها دعوة لتجربة اندماج
+              الكود و الإبداع في مساحة رقمية موجزة وآسرة. مرحبا بك في جوهر إتقان
+              HTML وJavaScript وCSS.
+            </p>
+            <a
+              class="projects__link"
+              href="https://namari-seven.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/NAMARI"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Kasper</h3>
+            <p class="projects__description">
+              ادخل إلى عالمي الماهر من خلال الصفحة المقصودة، شاهد التآزر بين
+              بنية HTML، وتفاعلية JavaScript، وCSS البراعة البصرية. هذه الصفحة
+              عبارة عن لوحة قماشية ديناميكية، لا تعكس فقط نقطة هبوط ولكنها عرض
+              لخبرتي التي شكلتها شركة Elzero تعاليم. إنها دعوة لتجربة اندماج
+              الكود و الإبداع في مساحة رقمية موجزة وآسرة. مرحبا بك في جوهر إتقان
+              HTML وJavaScript وCSS.
+            </p>
+            <a
+              class="projects__link"
+              href="https://kasper-ochre.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Kasper"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-rigth silde-in"
+            src="./images/project 12.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 13.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Bondi</h3>
+            <p class="projects__description">
+              ادخل إلى صفحتي المقصودة، وهي أحد منتجات Elzero's Bootstrap تندمج
+              الدورة بسلاسة مع HTML وJavaScript وCSS. هذا المساحة الديناميكية هي
+              أكثر من مجرد واجهة عرض؛ إنها لقطة من المهارات تم تحسينه من خلال
+              توجيهات Elzero. شاهد طلاقة تصميم Bootstrap سريع الاستجابة،
+              والمتناغم مع JavaScript الحيوية واللمسة الجمالية لـ CSS. مرحبا بكم
+              في موجزة و تقاطع مؤثر للكفاءة في Bootstrap، وHTML، جافا سكريبت،
+              وCSS.
+            </p>
+            <a
+              class="projects__link"
+              href="https://bondi-two.vercel.app/"
+              target="_blank"
+              >عرض حي</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Bondi"
+              target="_blank"
+              >مستودع جيت هوب</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__description">
+            لا تتردد في التواصل معي في أي وقت. أفضّل التحدث عبر البريد
+            الإلكتروني، خاصة وأننا قد نكون على بعد بضع مناطق زمنية.
+          </p>
+
+          <a href="mailto: mohaamedkamal0@gmail.com" class="contact__email"
+            >mohaamedkamal0@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.facebook.com/profile.php?id=100006031399403"
+            >
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://twitter.com/Mohamed83173083"
+            >
+              <img src="./images/brand/twitter.svg" alt="twitter" />
+            </a>
+
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://github.com/Mohamed-Ahmed-Kamal"
+            >
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.instagram.com/mo7amedkamal74/"
+            >
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.linkedin.com/in/mohamed-ahmed-kamal/"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            لنعمل <br />
+            معا!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                name="name"
+                placeholder="الاسم كامل"
+                required
+              />
+
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="رقم الموبيل"
+                name="tel"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              placeholder="الرساله"
+              rows="1"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="ارسال" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2023 by Mohamed Kamal</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

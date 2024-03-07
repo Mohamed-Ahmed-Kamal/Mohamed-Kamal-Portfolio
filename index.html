@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Mohamed Kamal</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link navigation__bio" href="#bio">Bio</a>
+            </li>
+            <li>
+              <a class="navigation__link navigation__skills" href="#skills"
+                >Skills</a
+              >
+            </li>
+
+            <li>
+              <a class="navigation__link navigation__projects" href="#projects"
+                >Projects</a
+              >
+            </li>
+
+            <li>
+              <a class="navigation__link navigation__contact" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="toggle">
+          <a href="arabc.html">
+            <img src="images/ar-lang.png" alt="">
+            Arabic
+          </a>
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input id="toggle" class="toggle__checkbox" type="checkbox" />
+          <label
+            class="toggle__label"
+            for="toggle"
+            role="button"
+            tabindex="0"
+          ></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I’M A Front End Developer</h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mohamed Kamal</span>, Front End
+            Developer My Accounts
+            <a
+              target="_blank"
+              class="bio__facebook"
+              href="https://www.facebook.com/profile.php?id=100006031399403"
+              >Facebook</a
+            >,
+            <a
+              target="_blank"
+              class="bio__twitter"
+              href="https://twitter.com/Mohamed83173083"
+              >Twitter</a
+            >,
+            <a
+              target="_blank"
+              class="bio__linkedin"
+              href="https://www.linkedin.com/in/mohamed-ahmed-kamal/"
+              >LinkedIn</a
+            >
+            and
+            <a
+              target="_blank"
+              class="bio__youtube"
+              href="https://github.com/Mohamed-Ahmed-Kamal"
+              >GitHub</a
+            >.
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+          <a
+            class="bio__links find-out-link"
+            href="file/Resume-Mohamed-Kamal (4).pdf"
+          >
+            Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/Picsart_24-01-04_18-00-05-906.png"
+            alt="personal pic of Mohamed Abusrea"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section skills section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <div class="skills__filters">
+          <button
+            class="skills__button skills__button--isActive"
+            data-type="all"
+          >
+            All
+          </button>
+          <button class="skills__button" data-type="frontend">Frontend</button>
+          <button class="skills__button" data-type="backend">Backend</button>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 1.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Age <br />
+              Calculation
+            </h3>
+            <p class="projects__description">
+              Utilizing JavaScript, HTML, and CSS, the Age Calculation Tool is a
+              user-friendly project allowing users to input their birthdate and
+              calculate their age. The clean and responsive design, achieved
+              through CSS, complements the functionality of the age calculation
+              feature, showcasing adeptness in both front-end scripting and
+              styling.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Age-Calculator"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Age-Calculator"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Calculator <br />
+              App
+            </h3>
+            <p class="projects__description">
+              Demonstrating proficiency in JavaScript, HTML, and CSS, the
+              Calculator App is a sleek project enabling users to perform basic
+              arithmetic operations. The interface is designed using HTML and
+              styled with CSS, showcasing a practical application of front-end
+              development skills.
+            </p>
+            <a
+              class="projects__link"
+              href="https://calculator-js-nu-three.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Calculator-JS"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 2.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 3.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Tic-Tac-Toe <br />
+              Game
+            </h3>
+            <p class="projects__description">
+              In this engaging project, a Tic-Tac-Toe game is implemented using
+              JavaScript for interactivity and HTML/CSS for a visually appealing
+              layout. The game project demonstrates skills in creating
+              interactive web applications, combining functionality with an
+              attractive and responsive user interface.
+            </p>
+            <a
+              class="projects__link"
+              href="https://tic-tac-green.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Tic-Tac"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">LaslesVPN</h3>
+            <p class="projects__description">
+              In the course of mastering CSS, HTML, and Sass on Almadrasa, I
+              undertook the creation of a Responsive Portfolio Website, a
+              project designed to showcase my proficiency in web development and
+              design. This portfolio not only serves as a representation of my
+              skills but also reflects my commitment to creating a user-friendly
+              and visually appealing digital presence.
+            </p>
+            <a
+              class="projects__link"
+              href="https://lasles-vpn-azure.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/LaslesVPN"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 4.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 5.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              CRUDS <br />
+              Operations
+            </h3>
+            <p class="projects__description">
+              The CRUD Operations Project serves as a comprehensive showcase of
+              proficiency in JavaScript, HTML, and CSS, focusing on creating,
+              reading, updating, and deleting data seamlessly. This dynamic web
+              application allows users to interact with a database, illustrating
+              strong back-end scripting skills in JavaScript. The HTML structure
+              ensures a well-organized and accessible user interface, while CSS
+              styling enhances the visual appeal and responsiveness of the
+              project. This practical demonstration reflects a holistic
+              understanding of web development, encompassing both functionality
+              and user experience.
+            </p>
+            <a
+              class="projects__link"
+              href="https://curds-smoky.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/CURDS"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Qurantab <br />
+              landing page
+            </h3>
+            <p class="projects__description">
+              The Sass-Styled Landing Page Project exemplifies mastery in Sass,
+              CSS, and HTML, showcasing a visually stunning and responsive
+              landing page. Utilizing the power of Sass for efficient styling,
+              the project emphasizes modular and maintainable code. The HTML
+              structure is thoughtfully organized, The result is a captivating
+              landing page that not only reflects a keen eye for design but also
+              highlights expertise in front-end development, illustrating a
+              seamless integration of style and substance.
+            </p>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/qurantab-landing-page"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/qurantab-landing-page"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 6.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 7.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Landing <br />
+              Bage
+            </h3>
+            <p class="projects__description">
+              In this project, I put my skills in front-end web development to
+              work to create an engaging and user-friendly landing page. With a
+              focus on clean design and seamless navigation, I aimed to
+              captivate visitors from the moment they land on the page. Through
+              the use of HTML, I ensured that the structure of the page was
+              well-defined, allowing for easy organization and accessibility.
+              CSS played a crucial role in enhancing the visual appeal and
+              functionality of the landing page, from styling fonts and spacing
+              to creating eye-catching graphics and animations. Throughout the
+              development process, I followed industry best practices, ensuring
+              that the landing page was fully responsive and compatible across
+              various devices and browsers. I also paid attention to optimizing
+              the page's loading speed, ensuring a smooth and seamless user
+              experience.
+            </p>
+            <a
+              class="projects__link"
+              href="https://template-three-virid.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Template-three"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Landing <br />
+              Page
+            </h3>
+            <p class="projects__description">
+              landing page I created to explain Osama's Zero course. Using HTML
+              and CSS, I designed a sleek and responsive layout. The highlight
+              of the landing page is a dynamic bar graph, illustrating the
+              course completion status. Through interactive elements, visitors
+              can easily track their progress. With carefully chosen color
+              schemes and typography, the landing page ensures an engaging and
+              visually appealing experience.
+            </p>
+            <a
+              class="projects__link"
+              href="https://template-two-main.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Template-TWO-main"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-lift silde-in"
+            src="./images/project 8.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 9.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              M.K <br />
+              Store
+            </h3>
+            <p class="projects__description">
+              Step into my online store, a showcase highlighting my prowess in
+              HTML, JavaScript, and CSS. It's more than a marketplace—it's a
+              digital canvas where HTML forms the structure, JavaScript adds
+              dynamic interactivity, and CSS brings aesthetic charm. Seamlessly
+              navigate through a user-friendly interface, experiencing the
+              synergy of these technologies. This platform is a testament to my
+              coding skills, a fusion of functionality and design that speaks
+              volumes in minimalistic elegance. Dive into a succinct journey of
+              web development excellence!
+            </p>
+            <a
+              class="projects__link"
+              href="https://m-k-shop.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/M.K-Shop"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Smak</h3>
+            <p class="projects__description">
+              Step into my skillful world with a landing page, Witness the
+              synergy of HTML's structure, JavaScript's interactivity, and CSS's
+              visual finesse. This page is a dynamic canvas, reflecting not just
+              a landing spot but a showcase of my expertise shaped by Elzero's
+              teachings. It's an invitation to experience the fusion of code and
+              creativity in a concise and captivating digital space. Welcome to
+              the essence of HTML, JavaScript, and CSS proficiency.
+            </p>
+            <a
+              class="projects__link"
+              href="https://smak.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Smak"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-rigth silde-in"
+            src="./images/project 10.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 11.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Namari</h3>
+            <p class="projects__description">
+              Step into my skillful world with a landing page, Witness the
+              synergy of HTML's structure, JavaScript's interactivity, and CSS's
+              visual finesse. This page is a dynamic canvas, reflecting not just
+              a landing spot but a showcase of my expertise shaped by Elzero's
+              teachings. It's an invitation to experience the fusion of code and
+              creativity in a concise and captivating digital space. Welcome to
+              the essence of HTML, JavaScript, and CSS proficiency.
+            </p>
+            <a
+              class="projects__link"
+              href="https://namari-seven.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/NAMARI"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Kasper</h3>
+            <p class="projects__description">
+              Step into my skillful world with a landing page, Witness the
+              synergy of HTML's structure, JavaScript's interactivity, and CSS's
+              visual finesse. This page is a dynamic canvas, reflecting not just
+              a landing spot but a showcase of my expertise shaped by Elzero's
+              teachings. It's an invitation to experience the fusion of code and
+              creativity in a concise and captivating digital space. Welcome to
+              the essence of HTML, JavaScript, and CSS proficiency.
+            </p>
+            <a
+              class="projects__link"
+              href="https://kasper-ochre.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Kasper"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img align-rigth silde-in"
+            src="./images/project 12.png"
+            alt="Quran Tab Extension"
+          />
+        </div>
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img .projects__img_revers"
+            src="./images/project 13.png"
+            alt="Quran Tab Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Bondi</h3>
+            <p class="projects__description">
+              Step into my crafted landing page, a product of Elzero's Bootstrap
+              course merging seamlessly with HTML, JavaScript, and CSS. This
+              dynamic space is more than a showcase; it's a snapshot of skills
+              refined through Elzero's guidance. Witness the fluency of
+              Bootstrap's responsive design, harmonizing with JavaScript's
+              vitality and CSS's aesthetic touch. Welcome to a concise and
+              impactful intersection of proficiency in Bootstrap, HTML,
+              JavaScript, and CSS.
+            </p>
+            <a
+              class="projects__link"
+              href="https://bondi-two.vercel.app/"
+              target="_blank"
+              >Live Demo</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://github.com/Mohamed-Ahmed-Kamal/Bondi"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a href="mailto: mohaamedkamal0@gmail.com" class="contact__email"
+            >mohaamedkamal0@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.facebook.com/profile.php?id=100006031399403"
+            >
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://twitter.com/Mohamed83173083"
+            >
+              <img src="./images/brand/twitter.svg" alt="twitter" />
+            </a>
+
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://github.com/Mohamed-Ahmed-Kamal"
+            >
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.instagram.com/mo7amedkamal74/"
+            >
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a
+              target="_blank"
+              class="contact__social"
+              href="https://www.linkedin.com/in/mohamed-ahmed-kamal/"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone Nu."
+                name="tel"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              placeholder="Your Message"
+              rows="1"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2023 by Mohamed Kamal</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
