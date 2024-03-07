@@ -444,10 +444,11 @@ body,
   line-height: 1.5;
 }
 .projects__link {
-  color: var(--color-darker-blue);
-  font-family: var(--font-family-poppins);
-  font-weight: var(--font-weight-medium);
-  margin-top: 2.3rem;
+    color: var(--color-text);
+    font-family: var(--font-family-poppins);
+    font-weight: var(--font-weight-medium);
+    margin-top: 2.3rem;
+    text-decoration: none;
 }
 .projects__link::after {
   content: "";
